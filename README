@@ -1,0 +1,13 @@
+KAN
+Kippo Abuse Notifier
+
+Parses the main kippo log file, and tries to send a abuse e-mail to the registar of the IP.
+
+It saves the parsed data, so it will not send the same complaint more than once.
+It also supports a whitelist of IPs too not report. Would be stupid to report yourself.
+
+Currently it only supports sending e-mail with a gmail account.
+
+Requirements:
+ Python 3.3 +
+ ipwhois
